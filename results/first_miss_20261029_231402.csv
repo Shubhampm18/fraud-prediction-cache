@@ -1,0 +1,2 @@
+"timestamp","client_latency_ms","cache","model_version","fraud_probability","is_fraud"
+"2026-10-29T23:14:02.6031186+05:30","92.0678","miss","v1","0.021204682750668013","False"

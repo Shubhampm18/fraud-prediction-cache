@@ -1,0 +1,14 @@
+# Python-generated 
+data/raw/creditcard.csv
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+# Local workload data contains sampled transaction records
+results/workload_pool.csv
+results/workload_sequence.csv
+*.egg-info
+
+# Virtual environments
+.venv

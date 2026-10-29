@@ -1,0 +1,36 @@
+[project]
+name = "cache-predictions"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shubhampm18", email = "shubhampmalik4@gmail.com" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "cachetools==7.2.7",
+    "fastapi==0.162.0",
+    "httpx==0.28.1",
+    "joblib==1.6.0",
+    "matplotlib>=3.9,<4",
+    "numpy==2.5.4",
+    "pandas==3.1.0",
+    "requests>=2.32,<3",
+    "scikit-learn==1.9.1",
+    "uvicorn[standard]==0.54.0",
+]
+
+[project.scripts]
+cache-predictions = "cache_predictions:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+

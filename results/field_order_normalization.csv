@@ -1,0 +1,3 @@
+"test","timestamp","cache","model_version","fraud_probability","is_fraud"
+"Original field order","2026-10-29T23:17:01.8255850+05:30","miss","v1","0.021204682750668013","False"
+"Reversed field order, same values","2026-10-29T23:17:01.8255850+05:30","hit","v1","0.021204682750668013","False"

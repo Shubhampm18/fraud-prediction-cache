@@ -1,0 +1,8 @@
+data/
+results/
+reports/
+.venv/
+.git/
+__pycache__/
+*.py[cod]
+data/raw/creditcard.csv
