@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir \
     fastapi==0.162.0 \
     "uvicorn[standard]==0.54.0" \
     numpy==2.5.4 \
+    pandas==3.1.0 \
     scikit-learn==1.9.1 \
     joblib==1.6.0 \
     cachetools==7.2.7
